@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+.f-text h2
+{
+	color: #017143;
+	font-size: 95px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.f-text h5
+{
+	color: #017143;
+	font-size: 25px;
+	text-transform: capitalize;
+	margin-bottom: 25px;
+	letter-spacing: 2px;
+}
+.f-text span{
+    color:black;
+}
+h1, h2, h5 {
+line-height: 0.9;
+}
+.apic-text, .bpic-text, .cpic-text, .dpic-text, .epic-text  
+{
+	width: 550px;
+}
+.first
+{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.fskin
+{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.topskin
+{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.apic
+{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.bpic
+{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.cpic
+{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.dpic
+{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.epic
+{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.apic-text h1
+{
+	color: #017143;
+	font-size: 55px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.apic-text h5
+{
+	color: #017143;
+	font-size: 25px;
+	text-transform: capitalize;
+	margin-bottom: 25px;
+	letter-spacing: 2px;
+}
+.bpic-text h1
+{
+	color: #017143;
+	font-size: 55px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.bpic-text h5
+{
+	color: #017143;
+	font-size: 25px;
+	text-transform: capitalize;
+	margin-bottom: 25px;
+	letter-spacing: 2px;
+}
+.cpic-text h1
+{
+	color: #017143;
+	font-size: 55px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.cpic-text h5
+{
+	color: #017143;
+	font-size: 25px;
+	text-transform: capitalize;
+	margin-bottom: 25px;
+	letter-spacing: 2px;
+}
+.dpic-text h1
+{
+	color: #017143;
+	font-size: 55px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.dpic-text h5
+{
+	color: #017143;
+	font-size: 25px;
+	text-transform: capitalize;
+	margin-bottom: 25px;
+	letter-spacing: 2px;
+}
+.epic-text h1
+{
+	color: #017143;
+	font-size: 55px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.epic-text h5
+{
+	color: #017143;
+	font-size: 25px;
+	text-transform: capitalize;
+	margin-bottom: 25px;
+	letter-spacing: 2px;
+}
+.first-text h1
+{
+	color: #017143;
+	font-size: 55px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.first-text h5
+{
+	color: #017143;
+	font-size: 25px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.f-text h2
+{
+	color: #017143;
+	font-size: 95px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.f-text h5
+{
+	color: #017143;
+	font-size: 25px;
+	text-transform: capitalize;
+	margin-bottom: 25px;
+	letter-spacing: 2px;
+}
+.top-text h2
+{
+	color: #017143;
+	font-size: 55px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+
+.top-text h3
+{
+	color: #017143;
+	font-size: 25px;
+	text-transform: capitalize;
+	margin-bottom: 25px;
+	letter-spacing: 2px;
+}
+h1, h2, h5 {
+line-height: 0.9;
+}
+h3
+{
+line-height: 2.7;
+}
+span
+{
+	color: #000000;
+}
+.apic-text p
+{
+	color: #04290b;
+	letter-spacing: 2px;
+	line-height: 28px;
+	font-size: 19px;
+	margin-bottom: 45px;
+}
+.bpic-text p
+{
+	color: #04290b;
+	letter-spacing: 2px;
+	line-height: 28px;
+	font-size: 19px;
+	margin-bottom: 45px;
+}
+.cpic-text p
+{
+	color: #04290b;
+	letter-spacing: 2px;
+	line-height: 28px;
+	font-size: 19px;
+	margin-bottom: 45px;
+}
+.dpic-text p
+{
+	color: #04290b;
+	letter-spacing: 2px;
+	line-height: 28px;
+	font-size: 19px;
+	margin-bottom: 45px;
+}
+.epic-text p
+{
+	color: #04290b;
+	letter-spacing: 2px;
+	line-height: 28px;
+	font-size: 19px;
+	margin-bottom: 45px;
+}
+.side 
+{
+	padding-left: 200px;
+	padding-right: 200px;
+	background-image: url(leaves.jpg);
+}
+
+ aside:hover
+{
+  transform: translateY(-35px);
+  transition: 0.8s;
+}
