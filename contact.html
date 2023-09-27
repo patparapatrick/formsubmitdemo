@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+  <html lang="en">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="css/cstyle.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body style="background-color:white;">
+  <div class="content">
+    <div class="topnav">
+        <a href="index.html" style="font-weight: 400; letter-spacing:5px;">FANCYFACECO.</a>
+        <div class="topnav-right">
+            <a href="index.html">Home</a>
+            <a href="contact.html" >Contact</a>
+        </div>
+    </div>
+
+    <div class="page-content-contact" style="background-color:white;">
+      <div style="text-align:center;padding-top: 3%;">
+          <h2></h2><span style="color:#dae0dd; font-size: 9em; font-weight:900; letter-spacing: 1px;">CONTACT US</span></h2>
+          <span style="position:absolute;text-align:center;margin-left:-37%; margin-top:6%; font-size:25px; letter-spacing:5px;">CONTACT US</span>
+      </div>
+      <div class="login-box" style="text-align:center;">
+        <h2 id="cons">Contact Us</h2>
+        <p id="labs">Via Email</p>
+        <form action="https://formsubmit.co/villanueva.patrick69@gmail.com" method="POST">
+          <div class="user-box">
+            <input type="text" name="" required="">
+            <label>Full Name</label>
+            </div>
+          <div class="user-box">
+          <input type="email" name="" required="">
+          <label>Email</label>
+          </div>
+          <div class="user-box">
+            <input type="text" name="" required="">
+            <label>Contact Number</label>
+            </div>
+            <div class="user-box">
+              <input type="text" name="" required="">
+              <label>Message</label>
+              </div>
+          <a href="endcontact.html">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>     
+          <button type="submit">Submit</button>
+          </a>
+        </form>
+      </div>
+      
+    </div>
+    <div class="page-content-footer" style="background-color:#e6e9e7; padding:2%;margin-top:2%;">
+      <div  style="color:gray; text-align: center;">
+          <div  style="font-size:15px;">
+              Copyright ©2022 All rights reserved | FANCYFACECO BY ROLYN JOYCE FARAN<BR>
+              <span class="grid-item"><i style="font-size:24px" class="fa">&#xf16d;</i></span>
+              <span class="grid-item"><i style="font-size:24px" class="fa">&#xf082;</i></span>
+              <span class="grid-item"><i style="font-size:24px" class="fa">&#xf099;</i></span>
+          </div>  
+        </div>
+      
+  </div>
+  <!-- SEND EMAIL -->
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script>
+    function sendEmail(){
+        Email.send({
+        Host : "smtp.gmail.com",
+        Username : "villanueva.patrick69@gmail.com",
+        Password : "*Fneilerl01",
+        To : 'positronelectron123@gmail.com',
+        From : document.getElementbyId("email").value,
+        Subject : "New Contact Form",
+        Body : "And this is the body"
+    }).then(
+      message => alert(message)
+    );
+  }</script>
+
+</body>
+</html>
